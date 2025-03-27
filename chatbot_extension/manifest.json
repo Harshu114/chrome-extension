@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Chatbot Extension",
+  "version": "1.0",
+  "description": "A chatbot extension for Chrome providing word meanings.",
+  "icons": {
+    "16": "chat-icon.png",
+    "48": "chat-icon.png",
+    "128": "chat-icon.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "chat-icon.png"
+  },
+  "permissions": [],
+  "host_permissions": ["*://*/*"]
+}
